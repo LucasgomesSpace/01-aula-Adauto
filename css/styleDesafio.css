@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.cabeça{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    font-size: 1.6rem;
+    font-style: normal;
+    padding: 40px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    gap: 30px;
+}
+.corli{
+color: red;
+}
+main{
+    height: 100dvh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    background-image: url(../img/jogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aumentatxt{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 0.9rem;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+body{
+    background-color: black;
+    background-image: url(../img/);
+}
